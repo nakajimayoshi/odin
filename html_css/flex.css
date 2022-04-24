@@ -1,0 +1,18 @@
+.container {
+    height: 100px;
+    padding: 15px;
+    background: slategray;
+    border: 4px solid cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .item {
+    width: 60px;
+    height: 60px;
+    border: 4px solid plum;
+    background: coral;
+  }
